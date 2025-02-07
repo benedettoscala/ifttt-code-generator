@@ -12,7 +12,7 @@ The project is organized into the following files and directories:
 - **bart_nl2ifttt.ipynb**: Notebook for fine-tuning and inference using the BART model.
 - **fine_tuning_mistral.ipynb**: Notebook for fine-tuning and inference using the Mistral model.
 - **test_and_compare_models.ipynb**: Notebook for testing and comparing the models.
-- **result.csv**: CSV file containing inference results, including the prompt, generated code from various models, and the reference code.
+- **generated_codes.csv**: CSV file containing inference results, including the prompt, generated code from various models, and the reference code.
 
 ## Installation
 To run the project, make sure you have installed the following dependencies:
@@ -43,7 +43,6 @@ After training, you can run the comparison notebook to evaluate performance:
 ```bash
 jupyter notebook test_and_compare_models.ipynb
 ```
-The results will be saved in `generated_codes.csv`.
 
 ## Model Evaluation
 The models are evaluated using different similarity metrics between the generated code and the reference code:
