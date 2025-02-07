@@ -43,7 +43,7 @@ After training, you can run the comparison notebook to evaluate performance:
 ```bash
 jupyter notebook test_and_compare_models.ipynb
 ```
-The results will be saved in `result.csv`.
+The results will be saved in `generated_codes.csv`.
 
 ## Model Evaluation
 The models are evaluated using different similarity metrics between the generated code and the reference code:
