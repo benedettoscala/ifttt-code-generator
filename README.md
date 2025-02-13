@@ -56,6 +56,4 @@ The models are evaluated using different similarity metrics between the generate
 - **BLEU**: Measures the precision of n-grams compared to the reference.
 - **METEOR**: Considers synonyms, stemming, and word order.
 - **ROUGE**: Evaluates recall based on overlapping sequences.
-- **PERPLEXITY**: Measures model uncertainty
-
-The scores for each model are calculated and saved in the output file.
+- **PERPLEXITY**: Measures model uncertainty.
