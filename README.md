@@ -12,6 +12,7 @@ The project is organized into the following files and directories:
 - **bart_nl2ifttt.ipynb**: Notebook for fine-tuning and inference using the BART model.
 - **fine_tuning_mistral.ipynb**: Notebook for fine-tuning and inference using the Mistral model.
 - **test_and_compare_models.ipynb**: Notebook for testing and comparing the models.
+- **try_models.ipynb**: Notebook for trying the models on a single prompt.
 - **generated_codes.csv**: CSV file containing inference results, including the prompt, generated code from various models, and the reference code.
 
 ## Installation
