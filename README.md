@@ -45,10 +45,17 @@ After training, you can run the comparison notebook to evaluate performance:
 jupyter notebook test_and_compare_models.ipynb
 ```
 
+### 4. Test the Models on a single prompt
+After training, you can run the comparison notebook to evaluate performance:
+```bash
+jupyter notebook test_and_compare_models.ipynb
+```
+
 ## Model Evaluation
 The models are evaluated using different similarity metrics between the generated code and the reference code:
 - **BLEU**: Measures the precision of n-grams compared to the reference.
 - **METEOR**: Considers synonyms, stemming, and word order.
 - **ROUGE**: Evaluates recall based on overlapping sequences.
+- **PERPLEXITY**: Measures model uncertainty
 
 The scores for each model are calculated and saved in the output file.
